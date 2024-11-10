@@ -1,0 +1,25 @@
+body{
+  margin: 0px;
+}
+*{
+ box-sizing: border-box; 
+}
+.icon
+{
+  height: 4rem;
+}
+.toolbar-options
+{
+  display: flex;
+  gap: 10px;
+}
+.toolbar
+{
+  justify-content: center;
+  
+  display: flex;
+}
+.cross
+{
+  display: flex;
+}

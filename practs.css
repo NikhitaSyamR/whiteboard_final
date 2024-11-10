@@ -1,0 +1,59 @@
+body
+{
+  margin: 0;
+}
+*
+{
+  box-sizing: border-box;
+}
+.icons
+{
+  width: 4rem;
+}
+.toolbar-options
+{
+  display: flex;
+  gap:1rem;
+}
+.toolbar
+{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.sticky
+{
+  
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
+  left: 45vw;
+  top: 45vh;
+}
+.nav-bar
+{
+  border: black solid 2px;
+  display: flex;
+  height: 20%;
+  width: 100%;
+  justify-content:flex-end;
+  background-color: yellow;
+  gap:1rem;
+  
+}
+.text
+{
+  height: 80%;
+  width: 100%;
+}
+.input-tag
+{
+  display: none;
+}
+.photo
+{
+  position: absolute;
+  left: 40vw;
+  top: 40vh;
+  height: 10rem;
+}
